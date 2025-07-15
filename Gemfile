@@ -46,13 +46,13 @@ group :development do
 
   # Integration tests
   gem 'diffy'
-  gem 'clintegracon'
+  gem 'clintegracon', '>= 0.9.0'
 
   # Code Quality
-  gem 'inch_by_inch'
+  gem 'inch_by_inch', '>= 1.0.1'
   gem 'rubocop'
 
-  gem 'danger'
+  gem 'danger', '>= 0.8.0'
 end
 
 group :debugging do
